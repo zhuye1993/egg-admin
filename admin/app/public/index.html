@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>传说中的服务端渲染吗？我的天</div>
+  <button onclick="add()">add</button>
+  <script>
+    function add() {
+      fetch('/add', {
+        method: 'post'
+      })
+    }
+  </script>
+</body>
+
+</html>

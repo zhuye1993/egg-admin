@@ -1,0 +1,14 @@
+GET  http://localhost:7001/getGirls?name=2
+content-length: 2
+content-type: application/json; charset=utf-8
+Date: Sat, 16 Apr 2022 07:34:04 GMT
+Keep-Alive: timeout=5
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-readtime: 1
+x-xss-protection: 1; mode=block
+
+{
+  "name": 123
+}
